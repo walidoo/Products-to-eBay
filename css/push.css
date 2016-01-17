@@ -1,0 +1,195 @@
+
+#wpcontent {
+    position: relative;				
+}
+
+.push {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+#message {
+	position: absolute;
+	top: 13.5%;
+	margin-top: 3%;
+}
+
+input.no_products {
+	height: 38px;
+    width: 73px;
+    padding: 10px;
+    border: 0;
+    color: #0091cd;
+    border-radius: 20px;
+    position: absolute;
+	margin-left: 123px;
+    margin-top: -43px;
+}
+
+p.p_1 {
+	font-size: 14px;
+}
+
+p.p_2 {
+    margin-left: 207px;
+    margin-top: -35px;
+    margin-bottom: 45px;
+    font-size: 14px;
+}
+
+@media (max-width: 979px) {
+  body {
+    padding-top: 0px;
+  }
+}
+
+@media (min-width: 768px) {
+  .form-horizontal .control-label {
+      width: 18% !important;
+  }
+}
+
+#components {
+  min-height: 500px;
+margin-top:5px;
+}
+
+#target fieldset {
+  border: 1px solid #ccc;
+  min-height: 220px;
+  padding: 5px;
+  padding-bottom: 50px;
+}
+
+.component {
+  cursor: pointer;
+}
+
+input {
+  cursor: pointer;
+}
+
+textarea {
+  resize: vertical;
+}
+.popover {
+  z-index: 9999;
+}
+.popover .control-group {
+  cursor: default;
+}
+.popover input {
+  cursor: text;
+}
+
+.temp{
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  position: absolute;
+  z-index: 999999;
+  top: 0;
+  overflow-x: hidden;
+  left: 0;
+}
+
+.temp form {
+  padding: 8px 4px;
+  border: 1px dotted #ccc;
+  position: absolute;
+  background: white;
+  box-shadow: 0px 0px 30px #999;
+  -webkit-transition: -webkit-transform 0.1s ease-out;
+  overflow: hidden;
+}
+
+#render{
+  min-height: 500px;
+  font-family: monospace;
+}
+
+/* Popovers now are appended to their parent rather
+than to the body/main document as they once were.
+We need to over-ride some inherited stuff.. */
+form .popover .controls {
+  margin-left: 0;
+}
+
+form .popover .control-label {
+  text-align: left;
+}
+
+form .popover form {
+  width: 300px;
+}
+
+.popover-content form .btn{
+  /* margin-right: 10px */
+}
+
+.target:after{
+  float:left;
+  content: " ";
+  height: 77px;
+  margin-top: 3px;
+  background: #f0f0f0;
+  width: 100%;
+  border: 1px dashed #ccc;
+}
+
+#target, #input, #radioscheckboxes, #select, #buttons {
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+#target fieldset{
+ width: 100%;
+ overflow: hidden;
+}
+
+.setting_page {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+#message {
+  position: absolute;
+  top: 16.7%;
+  margin-top: 3%;
+}
+
+.container {
+  float: left;
+}
+
+.div_user_notes {
+    float: right;
+    position: absolute;
+    right: 20px;
+    width: 323px;
+    height: 184px;
+}
+
+.user_notes {
+    float: right;
+    position: absolute;
+    right: -1px;
+    top: 35px;
+    padding: 5px;
+    background-color: white;
+    width: 323px;
+    height: 220px;
+    overflow: scroll;
+}
+
+h5.header_notes {
+    margin-top: 0px;
+}
+
+p.p_notes {
+    font-weight:bold;
+    margin-bottom: 0px;
+}
